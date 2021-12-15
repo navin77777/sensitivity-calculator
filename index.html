@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dr Reddy</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./css/style.css">
+
+  </head>
+  <body onload="hideSlider()">
+    <img
+
+      src="./img/1200px-Dr._Reddy's_Laboratories_logo.svg.png"
+      width="15%"
+      alt=""
+      style="margin: 1.5rem"
+    />
+    <div class="container">
+      <div class="step-row step-row2">
+        <div id="progress" class="process2"></div>
+        <div class="step-col step-col2"><small class="colorW">Step-1</small></div>
+        <div class="step-col step-col2"><small class="colorW">Step-2</small></div>
+        <div class="step-col step-col2"><small class="colorW">Step-3</small></div>
+        <div class="step-col step-col2"><small class="colorW">step-4</small></div>
+        <div class="step-col step-col2"><small class="colorW">Step-5</small></div>
+        <div class="step-col step-col2"><small class="colorW">Step-6</small></div>
+        <div class="step-col step-col2"><small class="colorW">Step-7</small></div>
+      </div>
+
+      <div class="forms" id="form0" >
+        <center class="heading mb-5">
+          <span>
+            <span style="color: #4a2592">Ad</span
+            ><span style="color: #ff0000">vantage</span> for Sensitive Teeth
+          </span>
+        </center>
+
+
+        <center>
+          <span
+            ><p class="fw-bold fs-4 text">
+              Do you want to know whether you have
+              <span style="color: red"> sensitive teeth?</span>. Here is a
+              simple test for you!
+            </p></span
+          >
+        </center>
+
+        <center>
+          <button type="button" class="btn btn-danger" id="next0">Start</button>
+        </center>
+      </div>
+
+      <div class="forms" id="form1" >
+
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col">
+            <span class="font-weight-normal fs-4 text">
+              1.) Do you experience any discomfort in your teeth when you
+              consume hot, cold, sweet or sour food and beverages? Rate the
+              sensation from 0 to 5, with 5 being the highest.
+              <span style="color: red">*</span>
+            </span>
+          </div>
+          <div class="col-1"></div>
+
+          <div class="row m">
+            <div class="col-1"></div>
+            <div
+              class="col"
+              style="align-items: center; margin-left: 20%; margin-top: 25px"
+            >
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  id="rating1"
+                  value="option1"
+                  name="r1"
+                />
+                <label class="form-check-label" for="rating1">1</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  id="rating2"
+                  value="option2"
+                  name="r1"
+                />
+                <label class="form-check-label" for="rating2">2</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  id="rating3"
+                  value="option2"
+                  name="r1"
+                />
+                <label class="form-check-label" for="rating3">3</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  id="rating4"
+                  value="option2"
+                  name="r1"
+                />
+                <label class="form-check-label" for="rating4">4</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  id="rating5"
+                  value="option2"
+                  name="r1"
+                />
+                <label class="form-check-label" for="rating5">5</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="btn-box">
+            <button type="button" id="next1">Next</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="forms" id="form2">
+
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col">
+            <span class="font-weight-normal fs-4 text"
+              >2.) Do you feel any of the following symptoms in your teeth while
+              consuming certain foods and beverages, brushing or during chilly
+              weather? <span style="color: red">*</span>
+            </span>
+          </div>
+          <div class="col-2"></div>
+        </div>
+        <div style="margin-left: 50px; margin-top: 10px" class="row m">
+          <div class="col-2"></div>
+          <div class="col-9">
+            <input type="radio" id="sym1" name="sym" />
+            <label for="sym1"> Discomfort </label>
+            <br />
+            <input type="radio" id="sym2" name="sym" />
+            <label for="sym2">Sharp, electric or shooting pain</label> <br />
+            <input type="radio" id="sym3" name="sym" />
+            <label for="sym3">None of the above</label>
+            <br />
+          </div>
+        </div>
+
+        <div class="btn-box">
+          <button type="button" id="back1">Back</button>
+          <button type="button" id="next2">Next</button>
+        </div>
+      </div>
+
+      <div class="forms" id="form3">
+
+        <div class="row" style="width: 100%">
+          <div class="col-2"></div>
+          <div class="col">
+            <b></b>
+              <span class="font-weight-normal fs-4 text">
+                3.) How frequently do you brush?
+              </span>
+              <span style="color: red">*</span>
+              <span id="hideText" class="hideText"> How frequently do you brush? </span>
+            </b>
+          </div>
+          <div class="col-2"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-3"></div>
+          <div class="col-8">
+            <input type="radio" name="f" id="f1" value="0" />
+            <label for="f1">Once a day</label> <br />
+            <input type="radio" name="f" id="f2" value="0" />
+            <label for="f2">Twice a day </label> <br />
+            <input type="radio" name="f" id="f3" value="0" />
+            <label for="f3"> More than two times a day </label>
+            <br />
+          </div>
+          <div class="col-2"></div>
+        </div>
+        <div class="btn-box">
+          <button type="button" id="back2">Back</button>
+          <button type="button" id="next3">Next</button>
+        </div>
+      </div>
+
+      <div class="forms" id="form4">
+
+
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-8">
+            <span class="font-weight-normal fs-4 text"
+              >4.) For how long do you brush?
+              <span style="color: red">*</span>
+              <span id="hideText" class="hideText"> How frequently do you brush? </span>
+            </span>
+          </div>
+          <div class="col2-2"></div>
+        </div>
+
+        <div class="row m mt-4">
+          <div class="col-3"></div>
+          <div class="col-8">
+            <input type="radio" name="l" id="g1" value="0" />
+            <label for="g1"> < 2 minutes</label> <br />
+            <input type="radio" name="l" id="g2" value="0" />
+            <label for="g2"> ~2 minutes </label> <br />
+            <input type="radio" name="l" id="g3" value="0" />
+            <label for="g3"> >2 minutes</label>
+            <br />
+            <input type="radio" name="l" id="g4" value="0" />
+            <label for="g4"> Never </label>
+          </div>
+          <div class="col-2"></div>
+        </div>
+
+        <div class="btn-box">
+          <button type="button" id="back3">Back</button>
+          <button type="button" id="next4">Next</button>
+        </div>
+      </div>
+
+      <div class="forms" id="form5">
+
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col">
+            <span class="font-weight-normal fs-4 text"
+              >5.) What is the level of discomfort you feel while brushing your
+              teeth (5 being the highest)?  <span style="color: red">*</span> 
+            </span>
+          </div>
+          <div class="col-2"></div>
+        </div>
+
+        <div class="row m mt-4">
+          <div class="col-3"></div>
+          <div class="col-9">
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                id="dc1"
+                value="option1"
+                name="dc"
+              />
+              <label class="form-check-label" for="dc1">1</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                id="dc2"
+                value="option2"
+                name="dc"
+              />
+              <label class="form-check-label" for="dc2">2</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                id="dc3"
+                value="option2"
+                name="dc"
+              />
+              <label class="form-check-label" for="dc3">3</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                id="dc4"
+                value="option2"
+                name="dc"
+              />
+              <label class="form-check-label" for="dc4">4</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                id="dc5"
+                value="option2"
+                name="dc"
+              />
+              <label class="form-check-label" for="dc5">5</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="btn-box">
+          <button type="button" id="back4">Back</button>
+          <button type="button" id="next5">Next</button>
+        </div>
+      </div>
+
+      <div class="forms" id="form6">
+
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col">
+            <span class="font-weight-normal fs-4 text"
+              >6.) For how long you have been experiencing discomfort?
+              <span style="color: red">*</span>
+            </span>
+          </div>
+          <div class="col-2"></div>
+        </div>
+
+        <div class="row m mt-4">
+          <div class="col-3"></div>
+          <div class="col-9">
+            <input type="radio" name="fe" id="fe1" value="0" />
+            <label for="fe1">A few days</label> <br />
+            <input type="radio" name="fe" id="fe2" value="0" />
+            <label for="fe2"> A few weeks </label>
+            <br />
+            <input type="radio" name="fe" id="fe3" value="0" />
+            <label for="fe3"> A few months </label>
+
+            <br />
+          </div>
+        </div>
+
+        <div class="btn-box">
+          <button type="button" id="back5">Back</button>
+          <button type="button" id="next6">Next</button>
+        </div>
+      </div>
+
+      <div class="forms" id="form7">
+
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-8">
+            <span class="font-weight-normal fs-4 text"
+              >7.) Do you have any of the following habits?
+              <span style="color: red">*</span>
+              <span class="questionText" id="q7"
+              >7.) Do you have any of the following habits?
+              <span style="color: red">*</span>
+            </span>
+          </div>
+          <div class="col-2"></div>
+        </div>
+
+        <div class="row m">
+          <div class="col-2"></div>
+          <div class="col-9">
+            <input type="radio" name="h" id="h1" value="0" />
+            <label for="h1">Grinding your teeth</label> <br />
+            <input type="radio" name="h" id="h2" value="0" />
+            <label for="h2">
+              Chewing on hard materials such as nails, bones, ice cubes
+            </label>
+            <br />
+
+            <input type="radio" name="h" id="h3" value="0" />
+            <label for="h3"> Pick teeth with toothpicks </label>
+
+            <br />
+            <input type="radio" name="h" id="h4" value="0" />
+            <label for="h4"> None of the above </label> <br />
+          </div>
+        </div>
+
+        <div class="btn-box">
+          <button type="button" id="back6">Back</button>
+          <button
+            type="submit"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+            id="next7"
+            onclick="Calculate()"
+          >
+            Result
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              <span class="h"> Your sensitivity score is: </span>
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <span id="modal-text" class="modal-text"></span>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./js/script.js"></script>
+
+  </body>
+</html>
